@@ -19,3 +19,13 @@ Then add your bot to your discord instance.
 
 ## Problem?
 If there are any problems with the bot, please reach out to me by [pinging me on twitter](https://twitter.com/d0nutptr) or filling an issue on this repository! Thanks!
+
+## Buy me a coffee
+If you find `fxbot` useful, or you're just feeling generous, I'd appreciate a small tip to keep `fxbot` hosting going.
+
+
+BuyMeACoffee: [https://www.buymeacoffee.com/d0nut](https://www.buymeacoffee.com/d0nut)
+
+BTC: `bc1qp5v62wuhsv2eqwg7v7qjgzcw96me9qu3uxqe93`
+
+ETH: `0xb90D6F1589BF00d5c3098700c5033459F68A39B5`
