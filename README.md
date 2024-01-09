@@ -5,15 +5,17 @@ This simple discord bot replaces links to posts containing https://twitter.com o
 ## How to use
 There are two ways to use `fxbot`:
 
-1. You can use the official `fxbot` by [adding it to your instance](https://getfx.bot) 
+1. You can use the official `fxbot` (hosted, by me, for free) by [adding it to your instance](https://getfx.bot). 
 
-I, personally, host the bot with the same code found in this repo. If there are any problems with the bot, please reach out to me by [pinging me on twitter](https://twitter.com/d0nutptr)
+2. If you want to host an instance yourself, [create a discord bot token](https://www.writebots.com/discord-bot-token/). Then, build and launch the app as follows:
 
-2. If you want to host it yourself, [create a discord bot token](https://www.writebots.com/discord-bot-token/) and launch the app as follows:
-```
+```bash
 cargo build --release
 
 DISCORD_TOKEN=<discord bot token> ./target/release/fxbot
 ```
 
 Then add your bot to your own discord instance.
+
+## Problem?
+If there are any problems with the bot, please reach out to me by [pinging me on twitter](https://twitter.com/d0nutptr) or filling an issue on this repository! Thanks!
