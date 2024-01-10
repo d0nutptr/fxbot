@@ -76,10 +76,21 @@ impl EventHandler for FXHandler {
             return;
         }
 
-        let send_message_result = message
-            .channel_id
-            .say(&ctx.http, bot_message)
-            .await;
+        let send_message_result = match message.referenced_message {
+            // if the user was replying to someone, we should as well
+            Some(op_message) => {
+                op_message
+                    .reply(&ctx.http, bot_message)
+                    .await
+            }
+            // ... otherwise post a regular message
+            None => {
+                message
+                    .channel_id
+                    .say(&ctx.http, bot_message)
+                    .await
+            }
+        };
 
         if let Err(err) = send_message_result {
             println!("Error sending message: {err:#?}");
