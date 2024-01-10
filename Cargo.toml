@@ -1,6 +1,6 @@
 [package]
 name = "fxbot"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "MIT"
 description = "Discord bot that fixes embeds for twitter.com / x.com links by reposting with https://fxtwitter.com"
