@@ -1,6 +1,9 @@
 # fxbot
 
-This simple discord bot replaces links to posts containing https://twitter.com or https://x.com with links to https://fxtwitter.com, which fixes embeds!
+> [!NOTE]
+> Twitter / X embeds are working again! This bot is no longer necessary.
+
+~This simple discord bot replaces links to posts containing https://twitter.com or https://x.com with links to https://fxtwitter.com, which fixes embeds!~
 
 ## How to use
 There are two ways to use `fxbot`:
